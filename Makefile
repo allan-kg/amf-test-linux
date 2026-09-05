@@ -1,2 +1,2 @@
 all:
-	g++ $(shell pkg-config --libs vulkan) main.cpp -o amf-test
+	g++ main.cpp -o amf-test $(shell pkg-config --libs vulkan)
